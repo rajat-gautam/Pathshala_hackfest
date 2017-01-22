@@ -1,0 +1,131 @@
+@font-face {
+	font-family: "myFont";
+	src: url('KGSecondChancesSketch.ttf');
+}
+
+.btn {
+	background: rgba(0,0,0,0);
+	color: white;
+	font-weight: 400;
+	font-family: 'myFont';
+	background: #356aa0 url(../img/qwe.jpg) repeat-x;
+	
+}
+.btn: hover{
+	background: rgba(0,0,0,0);
+	color:yellow;
+	font-weight: 400;
+	font-family: 'myFont';
+	background: #356aa0 url(../img/qwe.jpg) repeat-x;
+	
+}
+
+body {
+  color:#fff;
+} 
+
+nav {
+	text-align: right;
+	padding: 1%;
+}
+
+#zxc {
+	font-family: 'myFont';
+	text-align: right;
+	background:#356aa0 url(../img/qwe.jpg) repeat-x;
+  
+	/*background: url('./green.jpg');*/
+	color: white;
+	background-size: 100% ;
+}
+
+#brand {
+	color: white;
+}
+#brand:hover {
+	color: yellow;
+}
+
+#searchButton {
+	color:white;
+	font-weight: 400;
+	background: rgba(0,0,0,0.2);
+
+	border-color: white;
+	border: strong 2px;
+	border-radius: 5px;
+}
+
+#serForm {
+	text-align :center;
+}
+
+input {
+	text-align:center;
+	color:white;
+	padding:2%;
+	font-size: 1.5em;
+}
+input:hover {
+	color:yellow;
+	padding:2%;
+	font-size: 1em;
+}
+
+input::-webkit-input-placeholder {
+color: white;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: white;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: white;  
+}
+ 
+input:-ms-input-placeholder {  
+color: white;  
+}
+input::-webkit-input-placeholder {
+color: white;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: white;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: white;  
+}
+ 
+input:-ms-input-placeholder {  
+color: white;  
+}
+
+#searchButton:hover {
+	color:yellow;
+	font-weight: 400;
+	background: rgba(0,0,0,0.4);
+	border: strong 2px;
+	border-radius: 5px;
+	border-color: yellow;
+}
+
+#login, #register {
+	color: white;
+	font-weight: 200;
+	background: rgba(0,0,0,0.2);
+}
+#register:hover, #login:hover {
+	color: yellow;
+	font-weight: 200;
+	background: rgba(0,0,0,0.4);
+}
+#asd {
+color:white;
+}
+#asd:hover
+{
+	color:yellow;
+}

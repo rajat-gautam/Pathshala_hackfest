@@ -1,0 +1,81 @@
+@font-face {
+	font-family: "myFont";
+	src: url("KGSecondChancesSolid.ttf");
+}
+@font-face {
+	font-family: "myFont2";
+	src: url("KGSecondChancesSketch.ttf");
+}
+@font-face {
+	font-family: "myFont3";
+	src : url("blzee.ttf");
+}
+
+body {
+	margin-top: 15%;
+		background: #356aa0 url(../img/blackboard.jpg) repeat-x;
+
+	/*background: url('blackboard.jpg');*/
+	background-size: 100% 100%;
+	text-align: center;
+	vertical-align: center;
+	color: white;
+}
+
+#fiftyP {
+	font-family: "myFont2";
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+
+a {
+	color: white;
+	font-size: 2em;
+}
+
+a:hover{
+	color: #DCCF54;
+	font-size: 2em;
+}
+
+input {
+	font-family: "myFont2";
+	padding: 1%;
+	font-size: 2em;
+	margin: 2px;
+	border: none;
+	background: rgba(0,0,0,0);
+	color: white;
+}
+input:hover {
+	font-family: "myFont2";
+	background: rgba(0,0,0,0.01);
+	color: #DCCF54;
+}
+
+.btn {
+	padding: 1.2%;
+	margin:2px;
+	font-size:3em;
+	font-family: "myFont2";
+	background: rgba(0,0,0,0);
+		background: #356aa0 url(../img/whiteBG.png) repeat-x;
+
+	/*background: url('whiteBG.png');*/
+	background-size: 100% 100%;
+	color: white;
+	border: none;
+}.btn:hover {
+	padding:1.2%;
+	margin: 2px;
+	font-size:3em;
+	font-family: "myFont";
+	background: rgba(0,0,0,0);
+		background: #356aa0 url(../img/yellowBG.png) repeat-x;
+
+	/*background: url('yellowBG.png');*/
+	background-size: 100% 100%;
+	color:yellow;
+	border: none;
+}

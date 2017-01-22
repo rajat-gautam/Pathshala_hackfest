@@ -1,0 +1,99 @@
+ 
+
+ 
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+   top:0;left:100%;
+   margin-top:-6px;margin-left:-1px;
+   -webkit-box-shadow: inset 0 -1px 0 #dddddd;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+     }
+  
+.dropdown-submenu > a:after {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  content: " ";
+  display: block;
+  float: right;  
+  height: 0; 
+  width: 0;
+}
+ 
+.dropdown-submenu:hover>a:after {
+    border-left-color:transparent;
+ }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+    text-decoration: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}  
+  
+@media (max-width: 767px) {
+
+  .navbar-nav  {
+     display: inline;
+  }
+  .navbar-default .navbar-brand {
+    display: inline;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: black;
+    background-color: transparent;
+    border-radius: 4px;   
+  }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+     color: transparent;
+   }
+   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+     background-color: #f1f1f1
+   }
+
+   .navbar-nav .open .dropdown-menu {
+      
+     border-radius: 0;
+   }
+  .dropdown-menu {
+      padding-left: 10px;
+  }
+  .dropdown-menu .dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   }
+   .dropdown-menu .dropdown-menu .dropdown-menu {
+      padding-left: 10px;
+   }
+   li.dropdown.open {
+    border: 0px solid red;
+   }
+
+}
+ 
+@media (min-width: 768px) {
+  ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+  }
+  #navbar {
+    text-align: center;
+  }
+}  
+#navi1001 {
+    font-family: Verdana, sans-serif;
+}
+.dropdown{
+  color: black;
+}

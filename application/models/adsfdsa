@@ -1,0 +1,10 @@
+SELECT user_details.id, user_details.salutation, user_details.first_name, user_details.middle_name, user_details.last_name, user_details.dept_id, user_details.email, user_details.photopath, user_details.sex, emp_basic_details.designation, emp_basic_details.office_no, user_other_details.mobile_no, user_other_details.nationality
+FROM user_details
+INNER JOIN emp_basic_details ON emp_basic_details.emp_no = user_details.id
+INNER JOIN user_other_details ON emp_basic_details.emp_no = user_other_details.id
+LIMIT 0 , 30
+
+
+
+
+SELECT user_details.id,user_details.salutation,user_details.first_name,user_details.middle_name,user_details.last_name,user_details.dept_id,user_details.email,user_details.photopath,user_details.sex,emp_basic_details.designation,emp_basic_details.office_no,user_other_details.mobile_no,user_other_details.nationality FROM user_details INNER JOIN emp_basic_details on emp_basic_details.emp_no = user_details.id INNER JOIN user_other_details on emp_basic_details.emp_no = user_other_details.id WHERE user_basic_details.designation = astprof AND user_basic_details.designation = prof AND user_basic_details.designation = ascprof   

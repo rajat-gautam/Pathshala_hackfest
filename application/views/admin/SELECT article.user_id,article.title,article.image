@@ -1,0 +1,5 @@
+SELECT article.user_id,article.title,article.image_path,lecture.lecture_path,timetable.timetable_path FROM article INNER JOIN
+lecture on article.user_id = lecture.user_id
+INNER JOIN timetable
+on article.user_id = timetable.user_id
+WHERE article.user_id=2;
